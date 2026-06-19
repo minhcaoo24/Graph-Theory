@@ -21,9 +21,9 @@ int main(int, char **) {
 
   std::vector<int> adj[1001];
   std::array<bool, 1001> visited;
-  std::array<int, 1001> parent;
+  visited.fill(false);
 
   i.inp(adj, 1, 9);
-  d.DeepFirstSearch(adj, visited, parent, 1);
+  d.DeepFirstSearch(adj, visited, 1);
   return EXIT_SUCCESS;
 }
