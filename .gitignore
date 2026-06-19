@@ -70,3 +70,5 @@ Testing/
 
 #OS
 .DS_Store
+
+.cache
